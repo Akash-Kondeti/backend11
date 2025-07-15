@@ -11,8 +11,6 @@ import pdfplumber
 import docx
 import pandas as pd
 from openai import AsyncOpenAI
-from dotenv import load_dotenv
-load_dotenv()
 
 try:
     from fastapi import FastAPI, File, UploadFile
